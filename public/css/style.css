@@ -145,6 +145,11 @@ footer {
     line-height: normal;
     text-transform: capitalize;
 }
+.footer-box ul li,
+.footer-btm ul li{
+    transition: 0.5s;
+
+}
 .footer-box ul li a,
 .footer-btm ul li a{
     font-size: 16px;
@@ -154,6 +159,7 @@ footer {
     line-height: normal;
     text-decoration: none;
     color: var(--gray);
+    transition: 0.5s;
 }
 /* .footer-box ul li {
     margin-bottom: 20px;
@@ -169,6 +175,17 @@ footer {
 .social-icon span {
     margin-left: 10px;
 }
-.footer-box ul li a:hover, .footer-btm ul li a:hover{
-    
+.footer-box ul li a:hover, .footer-btm ul li a:hover,.footer-box ul li:hover, .footer-btm ul li:hover{
+    color: var(--green);
+    transform: translate(10px);
+}
+.footer .footer-bottom-btm span a svg circle,
+.footer .footer-bottom-btm span a svg{
+    transition: 0.5s;
+}
+.footer .footer-bottom-btm span a svg:hover circle{
+    fill: #fff;
+}
+.footer .footer-bottom-btm span a svg:hover{
+    transform: translateY(-10px);
 }
