@@ -2,7 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3></h3>
+                <h3>Ready to Outsource? Contact Now</h3>
+                <div>
+                    <form>
+                        <input type="email"><br><br>
+                        <button type="button" class="btn btns"><span>Send Email</span></button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

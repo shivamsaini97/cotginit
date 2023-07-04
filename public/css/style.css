@@ -189,3 +189,7 @@ footer {
 .footer .footer-bottom-btm span a svg:hover{
     transform: translateY(-10px);
 }
+.footer-call{
+    background-image: url(../images/footer-call.jpg);
+    background-color: #222222;
+}
