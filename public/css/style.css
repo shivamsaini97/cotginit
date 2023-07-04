@@ -73,7 +73,9 @@ a.btn.btns span {
     position: relative;
     z-index: 99;
 }
-
+section {
+    padding: 50px 0;
+}
 /* header  */
 .nav-item .nav-link {
     font-family: Figtree;
@@ -141,3 +143,4 @@ footer {
 .border-bottom {
     border-color: #7e7e7e !important;
 }
+/* Footer end */
