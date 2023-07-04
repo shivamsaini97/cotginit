@@ -22,6 +22,24 @@ h5,
 h6 {
     font-family: "Figtree", sans-serif;
 }
+h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3{
+    font-size: 26px;
+    font-weight: 700;
+
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+
+}
 p {
     font-size: 16px;
     line-height: 140%;
@@ -36,6 +54,7 @@ ul li {
 }
 a {
     text-decoration: none;
+    color: var(--black);
 }
 .btns {
     border-radius: 8px;
@@ -108,7 +127,6 @@ a.btn.btns span {
     background: var(--lemon);
     padding: 9px 16px;
 }
-
 /* header end  */
 
 /* footer  */
@@ -117,7 +135,8 @@ footer {
     border-radius: 35px 35px 0px 0px;
     padding: 141px 0 40px 0;
 }
-.footer-box p {
+.footer-box p,
+.footer-bottom-btm p {
     color: var(--green);
     font-size: 20px;
     font-family: Figtree;
@@ -126,7 +145,8 @@ footer {
     line-height: normal;
     text-transform: capitalize;
 }
-.footer-box ul li a {
+.footer-box ul li a,
+.footer-btm ul li a{
     font-size: 16px;
     font-family: Poppins;
     font-style: normal;
@@ -135,9 +155,20 @@ footer {
     text-decoration: none;
     color: var(--gray);
 }
-.footer-box ul li {
+/* .footer-box ul li {
     margin-bottom: 20px;
-}
+} */
 .border-bottom {
     border-color: #7e7e7e !important;
+    padding-bottom: 30px;
+}
+.footer-btm ul {
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon span {
+    margin-left: 10px;
+}
+.footer-box ul li a:hover, .footer-btm ul li a:hover{
+    
 }
