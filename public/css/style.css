@@ -141,15 +141,3 @@ footer {
 .border-bottom {
     border-color: #7e7e7e !important;
 }
-@media (min-width: 992px) {
-    .nav-item.dropdown .dropdown-menu {
-        display: block;
-        visibility: hidden;
-        opacity: 0;
-        transition: all 0.2s;
-    }
-    .nav-item.dropdown:hover .dropdown-menu {
-        opacity: 1;
-        visibility: visible;
-    }
-}
