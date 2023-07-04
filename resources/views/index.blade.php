@@ -10,7 +10,7 @@
                    </div>
                 </div>
                 <div class="col-lg-7">
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-end">
                         <div class="image-box">
                             <img src="{{ asset('images/banner1.jpg') }}" alt="">
                         </div>
