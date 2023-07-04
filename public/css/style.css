@@ -92,7 +92,9 @@ a.btn.btns span {
     position: relative;
     z-index: 99;
 }
-
+section {
+    padding: 50px 0;
+}
 /* header  */
 .nav-item .nav-link {
     font-family: Figtree;
@@ -168,6 +170,9 @@ footer {
     border-color: #7e7e7e !important;
     padding-bottom: 30px;
 }
+
+/* Footer end */
+
 .footer-btm ul {
     display: flex;
     justify-content: space-between;
@@ -189,7 +194,74 @@ footer {
 .footer .footer-bottom-btm span a svg:hover{
     transform: translateY(-10px);
 }
+
 .call-now .row{
-    background-image: url('../images/footer-call.jpg');
-    /* background-color: #222222; */
+    background-image: url(../images/footer-call.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 45px;
+    border-radius: 15px;
+}
+.call-now-heading {
+    font-size: 35px;
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #fff;
+}
+.email-sub {
+    width: 484px;
+    height: 40px;
+    border-radius: 5px;
+    background:#9393936e;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    padding: 0 10px;
+    color: #fff;
+}
+input.email-sub::placeholder {
+    color: var(--background, #FFF);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.call-now button span{
+    z-index: 99;
+    position: relative;
+}
+section.call-now.p-0 {
+    position: relative;
+    top: 100px;
+}
+.call-now.p-0 {
+    position: relative;
+    top: 100px;
+}
+
+
+/* homepage  */
+.heading {
+    position: relative;
+}
+
+.heading h1:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/svg/headingbanner.svg);
+    width: 80%;
+    height: 50%;
+    left: 81px;
+    top: 104px;
+    background-repeat: no-repeat;
+}
+.image-box:first-child {
+    width: 380px;
+    overflow: hidden;
+    height: 379px;
 }

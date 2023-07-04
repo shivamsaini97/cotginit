@@ -1,12 +1,12 @@
-<section class="call-now">
+<section class="call-now p-0">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3>Ready to Outsource? Contact Now</h3>
+                <h3 class="call-now-heading">Ready to Outsource? Contact Now</h3>
                 <div>
-                    <form>
-                        <input type="email"><br><br>
-                        <button type="button" class="btn btns"><span>Send Email</span></button>
+                    <form class="m-0 pt-3">
+                        <input class="email-sub" placeholder="Enter Email Address" type="email"><br>  
+                        <button type="button" class="btn btns mt-3"><span>Send Email</span></button>
                     </form>
                 </div>
             </div>
