@@ -27,22 +27,39 @@
             color: var(--white);
         }
 
-        .side-text {
+        .side-left {
             padding: 5px 10px;
         }
 
-        .heading {
+        .heading-start {
             position: relative;
+            padding-bottom: 10px;
         }
 
-        .heading h2:after {
+        .heading-start h2:after {
             content: "";
             position: absolute;
-            background-image: url(http://localhost/github/cotginit/public/images/svg/heading-bottom.svg);
+            background-image: url(http://localhost/github/cotginit/public/images/svg/heading-bottom-start.svg);
             width: 100%;
             height: 100%;
             left: 0;
-            top: 35px;
+            top: 45px;
+            background-repeat: no-repeat;
+        }
+
+        .heading-end {
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .heading-end h2:after {
+            content: "";
+            position: absolute;
+            background-image: url(http://localhost/github/cotginit/public/images/svg/heading-bottom-end.svg);
+            width: 100%;
+            height: 100%;
+            right: -50%;
+            top: 45px;
             background-repeat: no-repeat;
         }
 
@@ -52,7 +69,7 @@
             line-height: 24px;
             letter-spacing: 0em;
             text-align: left;
-            padding: 20px 0px 0px 0px;
+            padding-top: 10px;
         }
 
         .inverted-coma-text {
@@ -71,7 +88,7 @@
         .inverted-coma-text::after {
             content: "";
             position: absolute;
-            background-image: url(http://localhost/github/cotginit/public/images/svg/inverted-coma.svg);
+            background-image: url('../public/images/svg/inverted-coma.svg');
             width: 100%;
             height: 100%;
             left: 0;
@@ -79,9 +96,93 @@
             background-repeat: no-repeat;
         }
 
-        .content .side-img {
+        .side-right {
+            padding: 5px 0;
+            position: relative;
+        }
+
+        .side-img img {
             border-radius: 20px;
-            margin-top: 40px;
+            /* top: 100px; */
+        }
+
+        .progressbar {
+            width: 157px;
+            height: 157px;
+            top: 869px;
+            left: 650px;
+            border-radius: 9.930442810058594px;
+        }
+
+        .circle {
+            width: 138px;
+            height: 138px;
+            border-radius: 50%;
+            background: #fff;
+            display: flex;
+            place-content: center;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle:before {
+            position: absolute;
+            content: '';
+            width: 86%;
+            height: 86%;
+            background: white;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .progress-bar-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .progressbar {
+            background: #fff;
+            width: 157px;
+            height: 157px;
+            top: 300px;
+            left: -50px;
+            border-radius: 9.930442810058594px;
+            position: absolute;
+        }
+
+        .score-heading {
+            font-family: 'Montserrat';
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .result-score {
+            font-weight: 700;
+            font-size: 45px;
+            color: var(--green);
+        }
+
+        .score-heading {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .result-score {
+            font-family: Figtree;
+            font-size: 31px;
+            font-weight: 800;
+            line-height: 37px;
+            letter-spacing: 0em;
+            text-align: left;
         }
     </style>
     <main id="about">
@@ -113,9 +214,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <div class="side-text">
-                            <div class="heading">
-                                <h2> Success Starts Here</h2>
+                        <div class="side-left">
+                            <div class="heading-start">
+                                <h2>Success Starts Here</h2>
                             </div>
                             <div class="paragraph">
                                 <p>Cotgin IT Solution is a leading provider of outsourcing services to B2B businesses. We
@@ -134,8 +235,44 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div class="side-img">
-                            <img src="{{ asset('images/about-us.jpg') }}" alt="About Us">
+                        <div class="side-right">
+                            <div class="side-img">
+                                <img src="{{ asset('images/about-us.jpg') }}" alt="Success Starts Here">
+                            </div>
+                            <div class="progressbar">
+                                <div class="circle m-2"
+                                    style="background: conic-gradient(rgb(94 168 19) 324deg, rgb(241, 241, 241) 324deg);
+                                ">
+                                    <div class="progress-bar-div">
+                                        <div class="result-score">89%</div>
+                                        <div class="score-heading">Successful cases in 12 years </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="side-left">
+                            <div class="heading-end">
+                                <h2>Grow Smarter with Perfect Partner</h2>
+                            </div>
+                            <div class="side-img">
+                                <img src="{{ asset('images/get-smarter.jpg') }}" alt="Grow Smarter with Perfect Partner">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="side-right">
+                            <div class="side-img">
+                                <img src="{{ asset('images/') }}" alt="About Us">
+                            </div>
                         </div>
                     </div>
                 </div>
