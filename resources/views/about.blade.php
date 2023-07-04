@@ -184,6 +184,24 @@
             letter-spacing: 0em;
             text-align: left;
         }
+
+        .block {
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px -2px #cdcdcd;
+            text-align: center;
+            padding: 7px 25px 64px 25px;
+            margin-bottom: 35px;
+        }
+
+        .block p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
     </style>
     <main id="about">
         {{-- Banner start --}}
@@ -264,14 +282,30 @@
                                 <h2>Grow Smarter with Perfect Partner</h2>
                             </div>
                             <div class="side-img">
-                                <img src="{{ asset('images/get-smarter.jpg') }}" alt="Grow Smarter with Perfect Partner">
+                                <img class="mt-4" src="{{ asset('images/get-smarter.jpg') }}"
+                                    alt="Grow Smarter with Perfect Partner">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-5">
                         <div class="side-right">
-                            <div class="side-img">
-                                <img src="{{ asset('images/') }}" alt="About Us">
+                            <div class="block">
+                                <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
+                                <h4>Why Us</h4>
+                                <p>Our outsourcing expertise has empowered countless B2B businesses. It’s your turn to save
+                                    money, improve efficiency, and achieve remarkable growth with us.</p>
+                            </div>
+                            <div class="block">
+                                <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
+                                <h4>Our Mission</h4>
+                                <p>Our aim is to give our clients the assurance that their outsourcing needs are in the
+                                    hands of a  trustworthy partner.</p>
+                            </div>
+                            <div class="block">
+                                <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
+                                <h4>Our Vision</h4>
+                                <p>Our vision is to provide high-quality services to our clients and help them achieve their
+                                    business goals</p>
                             </div>
                         </div>
                     </div>
