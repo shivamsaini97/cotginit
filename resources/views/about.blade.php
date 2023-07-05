@@ -21,7 +21,14 @@
 
         .breadcrumb {
             text-align: center;
+            justify-content: center;
         }
+
+        .breadcrumb a,
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: #fff;
+        }
+
 
         .breadcrumb .breadcrumb-item {
             color: var(--white);
@@ -195,7 +202,11 @@
         }
 
         .block:nth-child(3n-1) {
-            margin-left: -100px;
+            transform: translateX(-280px);
+        }
+
+        .block:nth-child(3n-0) {
+            transform: translateX(-480px);
         }
 
         .block p {
@@ -205,6 +216,18 @@
             line-height: 24px;
             letter-spacing: 0em;
             text-align: center;
+        }
+
+        .block img {
+            position: relative;
+        }
+
+        .shadow {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
         }
     </style>
     <main id="about">
@@ -295,6 +318,7 @@
                         <div class="side-right">
                             <div class="block">
                                 <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
+                                <img class="mt-4 shadow" src="{{ asset('images/svg/shadow.svg') }}" alt="Why Us">
                                 <h4>Why Us</h4>
                                 <p>Our outsourcing expertise has empowered countless B2B businesses. It’s your turn to save
                                     money, improve efficiency, and achieve remarkable growth with us.</p>
