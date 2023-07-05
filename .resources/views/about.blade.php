@@ -195,7 +195,7 @@
         .block {
             background: var(--white);
             border-radius: 10px;
-            /* box-shadow: 0px 4px 8px -2px #cdcdcd; */
+            box-shadow: 0px 4px 8px -2px #cdcdcd;
             text-align: center;
             padding: 7px 25px 64px 25px;
             margin-bottom: 35px;
@@ -222,9 +222,12 @@
             position: relative;
         }
 
-        .bottom-shadow {
+        .shadow {
+            content: "";
             position: absolute;
-            top: -35px;
+            width: 100%;
+            height: 100%;
+            top: 0;
         }
     </style>
     <main id="about">
@@ -279,7 +282,7 @@
                     <div class="col-md-7">
                         <div class="side-right">
                             <div class="side-img">
-                                <img src="{{ asset('images/about-us.jpg') }}" class="img-fluid" alt="Success Starts Here">
+                                <img src="{{ asset('images/about-us.jpg') }}" alt="Success Starts Here">
                             </div>
                             <div class="progressbar">
                                 <div class="circle m-2"
@@ -297,7 +300,7 @@
             </div>
         </section>
 
-        <section class="pb-0">
+        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -306,34 +309,31 @@
                                 <h2>Grow Smarter with Perfect Partner</h2>
                             </div>
                             <div class="side-img">
-                                <img class="mt-4 w-100" src="{{ asset('images/get-smarter.jpg') }}" class="img-fluid"
+                                <img class="mt-4 w-100" src="{{ asset('images/get-smarter.jpg') }}"
                                     alt="Grow Smarter with Perfect Partner">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 offset-1">
                         <div class="side-right">
-                            <div class="block shadow">
-                                <img class="mt-4" src="{{ asset('images/svg/our-vision.svg') }}" alt="Our Vision">
-                                <img class="mt-4 bottom-shadow" src="{{ asset('images/svg/shadow.svg') }}" alt="Our Vision">
-                                <h4>Our Vision</h4>
-                                <p>Our vision is to provide high-quality services to our clients and help them achieve their
-                                    business goals</p>
+                            <div class="block">
+                                <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
+                                <img class="mt-4 shadow" src="{{ asset('images/svg/shadow.svg') }}" alt="Why Us">
+                                <h4>Why Us</h4>
+                                <p>Our outsourcing expertise has empowered countless B2B businesses. It’s your turn to save
+                                    money, improve efficiency, and achieve remarkable growth with us.</p>
                             </div>
-                            <div class="block shadow">
-                                <img class="mt-4" src="{{ asset('images/svg/our-mission.svg') }}" alt="Our Mission">
-                                <img class="mt-4 bottom-shadow" src="{{ asset('images/svg/shadow.svg') }}"
-                                    alt="Our Mission">
+                            <div class="block">
+                                <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
                                 <h4>Our Mission</h4>
                                 <p>Our aim is to give our clients the assurance that their outsourcing needs are in the
                                     hands of a trustworthy partner.</p>
                             </div>
-                            <div class="block shadow">
+                            <div class="block">
                                 <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
-                                <img class="mt-4 bottom-shadow" src="{{ asset('images/svg/shadow.svg') }}" alt="Why Us">
-                                <h4>Why Us</h4>
-                                <p>Our outsourcing expertise has empowered countless B2B businesses. It’s your turn to save
-                                    money, improve efficiency, and achieve remarkable growth with us.</p>
+                                <h4>Our Vision</h4>
+                                <p>Our vision is to provide high-quality services to our clients and help them achieve their
+                                    business goals</p>
                             </div>
                         </div>
                     </div>
