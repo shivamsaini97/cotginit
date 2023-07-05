@@ -16,7 +16,7 @@
                                     aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.blade.php">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">About</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
                                     </ol>
                                 </nav>
                             </div>
