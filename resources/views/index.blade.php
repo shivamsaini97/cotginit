@@ -43,8 +43,8 @@
                 </div>
             </div>
             <div class="row mt-lg-5">
-                <div class="col-lg-4 mt-lg-5">
-                    <div class="outsourcing">
+                <div class="col-lg-5 mt-lg-5">
+                    <div class="outsourcing position-relative">
                         <div class="d-flex">
                             <span>
                                 <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +86,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="outsourcing">
+                    <div class="outsourcing position-relative">
                         <div class="d-flex">
                             <span>
                                 <svg width="76" height="77" viewBox="0 0 76 77" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -179,8 +179,20 @@
                     </div>
 
                 </div>
-                <div class="col-lg-8">
-                    
+                <div class="col-lg-7 text-end mt-lg-5">
+                    <div class="numbers">
+                        <div class="num-col">
+                          <h6 class="number"><span class="counter" data-count="60"> 0 </span>+</h6>
+                          <p class="card-text"><strong>Years of Excellence</strong></p>
+                        </div>
+                        <div class="num-col">
+                          <h6 class="number"><span class="counter" data-count="500"> 0 </span>+</h6>
+                          <p class="card-text"><strong>Students Trained</strong></p>
+                        </div>
+                      </div>
+                   <div class="outsourcing-img mt-lg-5">
+                    <img src="{{ asset('images/cotgin-min.jpg') }}" alt="">
+                   </div>
                 </div>
             </div>
         </div>
