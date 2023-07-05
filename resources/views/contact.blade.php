@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('content')
+    <style>
+
+    </style>
     <main id="about">
         {{-- Banner start --}}
         <section class="main-banner about-banner">

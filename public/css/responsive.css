@@ -12,7 +12,36 @@
 }
 
 @media (max-width: 991px) {
+    .side-right .progressbar {
+        top: 300px;
+        left: -25px;
+    }
+    .side-right .block:nth-child(3n-1) {
+        transform: translateX(0px);
+    }
+
+    .side-right .block:nth-child(3n-0) {
+        transform: translateX(0px);
+    }
 }
 
 @media (max-width: 767px) {
+    .side-right .block:nth-child(3n-1) {
+        transform: translateX(0px);
+    }
+
+    .side-right .block:nth-child(3n-0) {
+        transform: translateX(0px);
+    }
+}
+
+@media (max-width: 480px) {
+    .side-right .progressbar {
+        top: 180px;
+        left: 0px;
+    }
+    .side-left .heading-end h2:after {
+        right: -20%;
+        top: 45px;
+    }
 }
