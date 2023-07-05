@@ -194,6 +194,10 @@
             margin-bottom: 35px;
         }
 
+        .block:nth-child(3n-1) {
+            margin-left: -100px;
+        }
+
         .block p {
             font-family: Poppins;
             font-size: 16px;
@@ -282,12 +286,12 @@
                                 <h2>Grow Smarter with Perfect Partner</h2>
                             </div>
                             <div class="side-img">
-                                <img class="mt-4" src="{{ asset('images/get-smarter.jpg') }}"
+                                <img class="mt-4 w-100" src="{{ asset('images/get-smarter.jpg') }}"
                                     alt="Grow Smarter with Perfect Partner">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4 offset-1">
                         <div class="side-right">
                             <div class="block">
                                 <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
@@ -299,7 +303,7 @@
                                 <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
                                 <h4>Our Mission</h4>
                                 <p>Our aim is to give our clients the assurance that their outsourcing needs are in the
-                                    hands of a  trustworthy partner.</p>
+                                    hands of a trustworthy partner.</p>
                             </div>
                             <div class="block">
                                 <img class="mt-4" src="{{ asset('images/svg/why-us.svg') }}" alt="Why Us">
