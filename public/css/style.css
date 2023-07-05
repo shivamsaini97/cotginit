@@ -43,6 +43,7 @@ h4{
 p {
     font-size: 16px;
     line-height: 140%;
+    color: var(--gray);
 }
 ul {
     margin: 0;
@@ -246,7 +247,10 @@ section.call-now.p-0 {
 
 
 /* homepage  */
-.heading {
+.banner-home {
+    padding: 40px 0 !important;
+}
+.heading,.heading-homeh2 {
     position: relative;
 }
 
@@ -259,7 +263,14 @@ section.call-now.p-0 {
     left: 81px;
     top: 104px;
     background-repeat: no-repeat;
+    animation: mymove 5s infinite;
 }
+@keyframes mymove {
+    0%   {left: 0px;}
+    25%  {left: 100px;}
+    75%  {left: 50px}
+    100% {left: 100px;}
+  }
 .image-box:first-child {
     width: 380px;
     overflow: hidden;
@@ -272,5 +283,37 @@ section.call-now.p-0 {
     width: 73px;
     height: 379px;
     border-radius: 15px;
+    object-fit: cover;
+}
+.image-box {
+    margin-left: 17px;
+}
+
+.heading h1:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/svg/headingbanner.svg);
+    width: 80%;
+    height: 50%;
+    left: 81px;
+    top: 104px;
+    background-repeat: no-repeat;
+}
+.heading-homeh2:after{
+    content: "";
+    position: absolute;
+    background-image: url(../images/svg/home-headingh2.svg);
+    width: 80%;
+    height: 50%;
+    left: 2px;
+    top: 41px;
+    background-repeat: no-repeat;
+    animation: homeh2 5s infinite;
 
 }
+@keyframes homeh2 {
+    0%   {left: 0px;}
+    25%  {left: 100px;}
+    75%  {left: 50px}
+    100% {left: 100px;}
+  }
