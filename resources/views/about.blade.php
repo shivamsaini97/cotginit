@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+    {{-- are enter maro ismme --}}
     <main id="about">
         {{-- Banner start --}}
         <section class="main-banner about-banner">
