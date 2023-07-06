@@ -3,7 +3,7 @@
     <style>
 
     </style>
-    <main id="about">
+    <main id="contact">
         {{-- Banner start --}}
         <section class="main-banner about-banner">
             <div class="container">
