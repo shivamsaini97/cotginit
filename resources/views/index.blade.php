@@ -43,8 +43,8 @@
                 </div>
             </div>
             <div class="row mt-lg-5">
-                <div class="col-lg-4 mt-lg-5">
-                    <div class="outsourcing">
+                <div class="col-lg-5 mt-lg-5">
+                    <div class="outsourcing position-relative">
                         <div class="d-flex">
                             <span>
                                 <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +86,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="outsourcing">
+                    <div class="outsourcing position-relative">
                         <div class="d-flex">
                             <span>
                                 <svg width="76" height="77" viewBox="0 0 76 77" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -179,8 +179,36 @@
                     </div>
 
                 </div>
-                <div class="col-lg-8">
-                    
+                <div class="col-lg-7 text-end mt-lg-5">
+                    <div class="number-row d-flex">
+                      
+                          <div class="d-flex align-items-center text-start">
+                            <h6 class="number year-ex"><span class="counter" data-count="60"> 0 </span>+</h6>
+                            <p class="card-text">Years of Excellence</p>
+                          </div>
+                   
+                          <div class="divi">|</div>
+                          <div class="d-flex align-items-center text-start">
+                            <h6 class="number student-tra"><span class="counter" data-count="500"> 0 </span>+</h6>
+                          <p class="card-text">Students Trained</p>
+                          </div>
+                  
+                      </div>
+                   <div class="outsourcing-img mt-lg-5">
+                    <img src="{{ asset('images/cotgin-min.jpg') }}" alt="">
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="solution">
+        <div class="container">
+            <h2 class="">The Ultimate Solution is Here</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="ultimate-box">
+                        <img src="../images/Outsource-UI UX-Design.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
