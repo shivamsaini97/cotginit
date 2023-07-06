@@ -55,6 +55,9 @@ a {
     text-decoration: none;
     color: var(--black);
 }
+img{
+    width: 100%;
+}
 .btns {
     border-radius: 8px;
     background: var(--green);
@@ -410,6 +413,41 @@ h5 {
     margin: 0 10px;
     color: #fff;
 }
+.hover-icon {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: 0.5s;
+    width: 26px;
+    transform: translateY(-60px);
+}
+.solution-icon {
+    border-radius: 20px;
+}
+.ultimate-box:hover .hover-icon {
+    transform: translateY(0px);
+
+}
+.ultimate-box h4 a{
+    transition: 0.5s;
+}
+.ultimate-box:hover h4 a{
+    color: #5ea813;
+}
+.home-grow .image-grow {
+    width: 178px;
+}
+.home-grow .bottom-shadow {
+    position: absolute;
+    top: 157px;
+    left: 21%;
+    width: 61%;
+}
+.home-grow .block {
+    padding: 7px 25px 20px 25px;
+}
+
+
 /* about page  */
 .about-banner {
     background-image: url(http://localhost/github/cotginit/public/images/banner/about-banner.jpg);

@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
     <section class="about-us">
@@ -203,11 +203,99 @@
     </section>
     <section class="solution">
         <div class="container">
-            <h2 class="">The Ultimate Solution is Here</h2>
+            <h2 class="text-center mb-5">The Ultimate Solution is Here</h2>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="ultimate-box">
-                        <img src="../images/Outsource-UI UX-Design.jpg" alt="">
+                <div class="col-lg-3">
+                    <div class="ultimate-box position-relative overflow-hidden">
+                        <a href="#">
+                            <img class="hover-icon" src="{{ asset('images/svg/right-hover.svg') }}" alt="">
+                            <img class="solution-icon" src="{{ asset('images/Outsource-UI-UX-Design.jpg') }}" alt="">
+                            <div class="title cards mt-3">
+                                <h4><a href="#">Outsource UI/ UX Design</a></h4>
+                                <p>Level up Website Appeal</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ultimate-box position-relative overflow-hidden">
+                        <a href="#">
+                            <img class="hover-icon" src="{{ asset('images/svg/right-hover.svg') }}" alt="">
+                            <img class="solution-icon" src="{{ asset('images/Outsource-IT-Services.jpg') }}" alt="">
+                            <div class="title cards mt-3">
+                                <h4><a href="#">Outsource IT Services</a></h4>
+                                <p>Maximize your IT with us</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ultimate-box position-relative overflow-hidden">
+                        <a href="#">
+                            <img class="hover-icon" src="{{ asset('images/svg/right-hover.svg') }}" alt="">
+                            <img class="solution-icon" src="{{ asset('images/Outsource-Help-Desk.jpg') }}" alt="">
+                            <div class="title cards mt-3">
+                                <h4><a href="#">Outsource Help Desk</a></h4>
+                                <p>Trust best Helpdesk Pros</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ultimate-box position-relative overflow-hidden">
+                        <a href="#">
+                            <img class="hover-icon" src="{{ asset('images/svg/right-hover.svg') }}" alt="">
+                            <img class="solution-icon" src="{{ asset('images/Outsource-Marketing.jpg') }}" alt="">
+                            <div class="title cards mt-3">
+                                <h4><a href="#">Outsource Marketing</a></h4>
+                                <p>Perfect Fit for any Business </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pb-0 home-grow">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="side-left">
+                        <div class="heading-end">
+                            <h2>Grow Smarter with Perfect Partner</h2>
+                        </div>
+                        <div class="side-img">
+                            <img class="mt-4 w-100 " src="{{ asset('images/home-grow.jpg') }}" class="img-fluid"
+                                alt="Grow Smarter with Perfect Partner">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="side-right">
+                        <div class="block shadow">
+                            <img class="mt-1 image-grow" src="{{ asset('images/Outsourcing-Made-Easy.png') }}" alt="Our Vision">
+                            <img class="mt-1 bottom-shadow" src="{{ asset('images/svg/shadow.svg') }}" alt="Our Vision">
+                            <h4>Our Vision</h4>
+                            <p>Our vision is to provide high-quality services to our clients and help them achieve
+                                their
+                                business goals</p>
+                        </div>
+                        <div class="block shadow">
+                            <img class="mt-1 image-grow" src="{{ asset('images/Unleash-Business-Growth.png') }}" alt="Our Mission">
+                            <img class="mt-1 bottom-shadow" src="{{ asset('images/svg/shadow.svg') }}"
+                                alt="Our Mission">
+                            <h4>Our Mission</h4>
+                            <p>Our aim is to give our clients the assurance that their outsourcing needs are in the
+                                hands of a trustworthy partner.</p>
+                        </div>
+                        <div class="block shadow">
+                            <img class="mt-1 image-grow" src="{{ asset('images/Better-Results.png') }}" alt="Why Us">
+                            <img class="mt-1 bottom-shadow" src="{{ asset('images/svg/shadow.svg') }}" alt="Why Us">
+                            <h4>Why Us</h4>
+                            <p>Our outsourcing expertise has empowered countless B2B businesses. It’s your turn to
+                                save
+                                money, improve efficiency, and achieve remarkable growth with us.</p>
+                        </div>
                     </div>
                 </div>
             </div>
