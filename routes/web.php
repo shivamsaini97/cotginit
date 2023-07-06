@@ -24,3 +24,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
+Route::get('/blog-detail', function () {
+    return view('blog-detail');
+})->name('blog-detail');

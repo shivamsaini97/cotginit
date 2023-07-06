@@ -180,19 +180,35 @@
 
                 </div>
                 <div class="col-lg-7 text-end mt-lg-5">
-                    <div class="numbers">
-                        <div class="num-col">
-                          <h6 class="number"><span class="counter" data-count="60"> 0 </span>+</h6>
-                          <p class="card-text"><strong>Years of Excellence</strong></p>
-                        </div>
-                        <div class="num-col">
-                          <h6 class="number"><span class="counter" data-count="500"> 0 </span>+</h6>
-                          <p class="card-text"><strong>Students Trained</strong></p>
-                        </div>
+                    <div class="number-row d-flex">
+                      
+                          <div class="d-flex align-items-center text-start">
+                            <h6 class="number year-ex"><span class="counter" data-count="60"> 0 </span>+</h6>
+                            <p class="card-text">Years of Excellence</p>
+                          </div>
+                   
+                          <div class="divi">|</div>
+                          <div class="d-flex align-items-center text-start">
+                            <h6 class="number student-tra"><span class="counter" data-count="500"> 0 </span>+</h6>
+                          <p class="card-text">Students Trained</p>
+                          </div>
+                  
                       </div>
                    <div class="outsourcing-img mt-lg-5">
                     <img src="{{ asset('images/cotgin-min.jpg') }}" alt="">
                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="solution">
+        <div class="container">
+            <h2 class="">The Ultimate Solution is Here</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="ultimate-box">
+                        <img src="../images/Outsource-UI UX-Design.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>

@@ -22,23 +22,21 @@ h5,
 h6 {
     font-family: "Figtree", sans-serif;
 }
-h1{
+h1 {
     font-size: 45px;
     font-weight: 800;
 }
-h2{
+h2 {
     font-size: 40px;
     font-weight: 700;
 }
-h3{
+h3 {
     font-size: 26px;
     font-weight: 700;
-
 }
-h4{
+h4 {
     font-size: 20px;
     font-weight: 700;
-
 }
 p {
     font-size: 16px;
@@ -149,12 +147,11 @@ footer {
     text-transform: capitalize;
 }
 .footer-box ul li,
-.footer-btm ul li{
+.footer-btm ul li {
     transition: 0.5s;
-
 }
 .footer-box ul li a,
-.footer-btm ul li a{
+.footer-btm ul li a {
     font-size: 16px;
     font-family: Poppins;
     font-style: normal;
@@ -181,22 +178,25 @@ footer {
 .social-icon span {
     margin-left: 10px;
 }
-.footer-box ul li a:hover, .footer-btm ul li a:hover,.footer-box ul li:hover, .footer-btm ul li:hover{
+.footer-box ul li a:hover,
+.footer-btm ul li a:hover,
+.footer-box ul li:hover,
+.footer-btm ul li:hover {
     color: var(--green);
     transform: translate(10px);
 }
 .footer .footer-bottom-btm span a svg circle,
-.footer .footer-bottom-btm span a svg{
+.footer .footer-bottom-btm span a svg {
     transition: 0.5s;
 }
-.footer .footer-bottom-btm span a svg:hover circle{
+.footer .footer-bottom-btm span a svg:hover circle {
     fill: #fff;
 }
-.footer .footer-bottom-btm span a svg:hover{
+.footer .footer-bottom-btm span a svg:hover {
     transform: translateY(-10px);
 }
 
-.call-now .row{
+.call-now .row {
     background-image: url(../images/footer-call.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,7 @@ footer {
     width: 484px;
     height: 40px;
     border-radius: 5px;
-    background:#9393936e;
+    background: #9393936e;
     outline: 0;
     box-shadow: none;
     border: 0;
@@ -225,14 +225,14 @@ footer {
     color: #fff;
 }
 input.email-sub::placeholder {
-    color: var(--background, #FFF);
+    color: var(--background, #fff);
     font-size: 14px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
 }
-.call-now button span{
+.call-now button span {
     z-index: 99;
     position: relative;
 }
@@ -245,12 +245,12 @@ section.call-now.p-0 {
     top: 100px;
 }
 
-
 /* homepage  */
 .banner-home {
     padding: 40px 0 !important;
 }
-.heading,.heading-homeh2 {
+.heading,
+.heading-homeh2 {
     position: relative;
 }
 
@@ -266,20 +266,29 @@ section.call-now.p-0 {
     animation: mymove 5s infinite;
 }
 @keyframes mymove {
-    0%   {left: 0px;}
-    25%  {left: 100px;}
-    75%  {left: 50px}
-    100% {left: 100px;}
-  }
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: 100px;
+    }
+    75% {
+        left: 50px;
+    }
+    100% {
+        left: 100px;
+    }
+}
 .image-box:first-child {
     width: 380px;
     overflow: hidden;
     height: 379px;
 }
-.image-box:first-child img{
+.image-box:first-child img {
     width: 100%;
 }
-.image-box,.image-box img {
+.image-box,
+.image-box img {
     width: 73px;
     height: 379px;
     border-radius: 15px;
@@ -299,7 +308,7 @@ section.call-now.p-0 {
     top: 104px;
     background-repeat: no-repeat;
 }
-.heading-homeh2:after{
+.heading-homeh2:after {
     content: "";
     position: absolute;
     background-image: url(../images/svg/home-headingh2.svg);
@@ -309,15 +318,22 @@ section.call-now.p-0 {
     top: 41px;
     background-repeat: no-repeat;
     animation: homeh2 5s infinite;
-
 }
 @keyframes homeh2 {
-    0%   {left: 0px;}
-    25%  {left: 100px;}
-    75%  {left: 50px}
-    100% {left: 100px;}
-  }
-  h5 {
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: 100px;
+    }
+    75% {
+        left: 50px;
+    }
+    100% {
+        left: 100px;
+    }
+}
+h5 {
     color: var(--heading, #222);
     font-size: 20px;
     font-family: Figtree;
@@ -329,15 +345,14 @@ section.call-now.p-0 {
 .outsourcing {
     margin-bottom: 110px;
 }
-.outsourcing:last-child{
+.outsourcing:last-child {
     margin-bottom: 0px;
-
 }
 .outsourcing:first-child:before {
     content: "";
     position: absolute;
     left: 32px;
-    top: 84px;
+    top: 75px;
     width: 100px;
     height: 100px;
     border-left: 2px dashed #000;
@@ -346,13 +361,54 @@ section.call-now.p-0 {
     content: "";
     position: absolute;
     left: 32px;
-    top: 84px;
+    top: 75px;
     width: 100px;
     height: 100px;
     border-left: 2px dashed #000;
 }
 .outsourcing-img img {
     border-radius: 10px;
+}
+.number-row {
+    border-radius: 15px;
+    background: var(--primary, #5EA813);
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.17);
+    width: 520px;
+    padding: 2px 25px 0px;
+    align-items: center;
+    position: absolute;
+}
+.number {
+    color: var(--background, #FFF);
+    font-size: 48.75px;
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+
+}
+.year-ex {
+    width: 120px;
+}
+.student-tra {
+    width: 160px;
+}
+.card-text {
+    color: var(--background, #FFF);
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.5%;
+    text-align: start;
+    padding-left: 15px;
+}
+.divi {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0 10px;
+    color: #fff;
 }
 /* about page  */
 .about-banner {
@@ -366,7 +422,7 @@ section.call-now.p-0 {
 }
 
 .banner-text {
-    text-align: center
+    text-align: center;
 }
 
 .banner-text h1 {
@@ -375,9 +431,11 @@ section.call-now.p-0 {
 
 .breadcrumb {
     text-align: center;
+    justify-content: center;
 }
 
-.breadcrumb .breadcrumb-item {
+.breadcrumb .breadcrumb-item,
+.breadcrumb .breadcrumb-item a {
     color: var(--white);
 }
 
@@ -398,6 +456,21 @@ section.call-now.p-0 {
     height: 100%;
     left: 0;
     top: 45px;
+    background-repeat: no-repeat;
+}
+
+.heading-start h4 {
+    font-size: 26px;
+}
+
+.heading-start h4:after {
+    content: "";
+    position: absolute;
+    background-image: url(http://localhost/github/cotginit/public/images/svg/heading-bottom-start.svg);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 28px;
     background-repeat: no-repeat;
 }
 
@@ -436,13 +509,12 @@ section.call-now.p-0 {
     letter-spacing: 0em;
     text-align: left;
     padding-left: 40px;
-
 }
 
 .inverted-coma-text::after {
     content: "";
     position: absolute;
-    background-image: url('../public/images/svg/inverted-coma.svg');
+    background-image: url("../public/images/svg/inverted-coma.svg");
     width: 100%;
     height: 100%;
     left: 0;
@@ -465,7 +537,7 @@ section.call-now.p-0 {
     height: 157px;
     top: 869px;
     left: 650px;
-    border-radius: 9.930442810058594px;
+    border-radius: 10px;
 }
 
 .circle {
@@ -482,7 +554,7 @@ section.call-now.p-0 {
 
 .circle:before {
     position: absolute;
-    content: '';
+    content: "";
     width: 86%;
     height: 86%;
     background: white;
@@ -510,7 +582,7 @@ section.call-now.p-0 {
 }
 
 .score-heading {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 600;
     font-size: 16px;
 }
@@ -548,6 +620,14 @@ section.call-now.p-0 {
     margin-bottom: 35px;
 }
 
+.block:nth-child(3n-1) {
+    transform: translateX(-280px);
+}
+
+.block:nth-child(3n-0) {
+    transform: translateX(-480px);
+}
+
 .block p {
     font-family: Poppins;
     font-size: 16px;
@@ -555,4 +635,53 @@ section.call-now.p-0 {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+.block img {
+    position: relative;
+}
+
+.bottom-shadow {
+    position: absolute;
+    top: -35px;
+}
+
+/* contact page  */
+.form-select,
+textarea,
+.form-control,
+.form-control:focus {
+    background-color: transparent;
+}
+label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.info-box {
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+.info-box p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding-left: 15px;
+    margin: 0;
+}
+.info-box .contact-icon {
+    background: #fff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form span {
+    position: relative;
+    z-index: 999;
 }
