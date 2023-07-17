@@ -33,6 +33,7 @@ Route::get('/blog-detail', function () {
     return view('blog-detail');
 })->name('blog-detail');
 
+<<<<<<< HEAD
 Route::get('/it-services', function () {
     return view('it-services');
 })->name('it-services');
@@ -41,6 +42,8 @@ Route::get('/detail-page', function () {
     return view('detail-page');
 })->name('detail-page');
 
+=======
+>>>>>>> 9bb48ab261e2d7864db6b576c6fe9adbf3f5842d
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
