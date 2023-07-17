@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="{{ asset('images/logo/cotgin.png') }}" alt=""></a>
+      <a class="navbar-brand" href="{{ URL::to('/') }}"><img src="{{ asset('images/logo/cotgin.png') }}" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,8 +13,9 @@
               Our Company
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="{{route('about')}}">About</a></li>
+              <li><a class="dropdown-item" href="{{route('blog')}}">Blog</a></li>
+              <li><a class="dropdown-item" href="{{route('contact')}}">Contact</a></li>
     
             </ul>
           </li>
@@ -23,7 +24,7 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="#">IT Services</a>
+            <a class="nav-link" href="{{route('it-services')}}">IT Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">UI/UX Design</a>

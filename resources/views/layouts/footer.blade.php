@@ -106,7 +106,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 offset-1 social-icon">
+            <div class="col-lg-2 offset-md-1 social-icon">
                 <p>Follow Us On:</p>
                 <span style="margin-left: 0;">
                     <a href="#">
@@ -149,11 +149,16 @@
     </div>
 </footer>
         <script src="{{ asset('js/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/anime.min.js') }}"></script>
+        <script src="{{ asset('js/wow.min.js') }}" ></script>
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}" ></script>
         <script src="{{ asset('js/slick.min.js') }}"></script>
         <script src="{{ asset('js/jquery.ez.min.js') }}"></script>
         <script src="{{ asset('js/all.min.js') }}" ></script>
         <script src="{{ asset('js/main.js') }}" ></script>
+        <script>
+            new WOW().init();
+           </script>
     </body>
 </html>
 

@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="side-right">
+                        <div class="side-right mt-lg-5">
                             <div>
                                 <h2>Lorem Ipsum dolor Sit Amet Lorem Ipsum Dolor</h2>
                             </div>

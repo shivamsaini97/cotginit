@@ -32,3 +32,15 @@ Route::get('/contact', function () {
 Route::get('/blog-detail', function () {
     return view('blog-detail');
 })->name('blog-detail');
+
+Route::get('/it-services', function () {
+    return view('it-services');
+})->name('it-services');
+
+Route::get('/detail-page', function () {
+    return view('detail-page');
+})->name('detail-page');
+
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');

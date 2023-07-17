@@ -10,7 +10,26 @@
         visibility: visible;
     }
 }
+@media (max-width: 1199px) {
+    .nav-item .nav-link {
+        font-size: 14px;
+        margin-right: 5px;
+}
+.btns {
+    font-size: 14px;
+    padding: 12px 18px;
+}
+.col-content {
+    transform: rotate(270deg) translate(109px, -9px);
+}
+.number-row {
+    transform: translate(-16px, -37px);
+}
 
+.outsourcing:first-child:before,.outsourcing:nth-child(2):before {
+    top: 85px;
+}
+}
 @media (max-width: 991px) {
     .side-right .progressbar {
         top: 300px;
@@ -23,6 +42,22 @@
     .side-right .block:nth-child(3n-0) {
         transform: translateX(0px);
     }
+    .outsourcing-img img {
+        border-radius: 10px;
+        z-index: -1;
+        
+        margin-top: 45px;
+
+    }   
+    .number-row {
+        transform: translate(0px, 0px);
+    }
+    video.heading-1, .heading-2{
+       display: none;
+    }
+    .side-right {
+        padding: 35px 0 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -33,6 +68,69 @@
     .side-right .block:nth-child(3n-0) {
         transform: translateX(0px);
     }
+    .email-sub {
+        width: 100%;
+    }
+    .number-row {
+        width: 100%;
+        display: grid !important;
+        position: relative;
+        padding: 20px;
+    }
+    
+    .number-row .d-flex.align-items-center.text-start:first-child {
+        margin-bottom: 20px;
+    }
+    .number {
+
+        font-size: 32px;
+    }
+    .student-tra {
+        width: auto;
+    }
+    .year-ex {
+        width: auto;
+    }
+    .divi {
+        display: none;
+}
+.home-grow .side-img img {
+    height: auto;
+}
+.perfect-img div {
+    width: 100%;
+}
+.perfect-img {
+    display: grid !important;
+}
+.perfect-img img {
+    width: auto;
+}
+.slick-arrow {
+    display: none !important;
+}
+.client h2:after{
+    content: none;
+}
+.footer-btm ul {
+    display: grid;
+}
+
+.about-us {
+    padding-top: 0;
+}
+.solution {
+    padding-top: 20px;
+}
+.hover-show-text {
+    display: grid !important;
+}
+.w-50.text-end {
+    text-align: start !important;
+}
+body .perfect-img div:nth-child(even) {
+    top: 0;
+}
 }
 
 @media (max-width: 480px) {
@@ -40,8 +138,5 @@
         top: 180px;
         left: 0px;
     }
-    .side-left .heading-end h2:after {
-        right: -20%;
-        top: 45px;
-    }
+    
 }
